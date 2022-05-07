@@ -1,16 +1,16 @@
 {
-    "broadArea": {
-        "name": "Biotechnology and Biomedical Engineering",
-        "link": "https://www.vlab.co.in/broad-area-biotechnology-and-biomedical-engineering"
-    },
-    "lab": "Virtual Bio-Medical & Signal Processing Laboratory",
-    "lab_display_name": "Biomedical and Signal Processing Lab",
-    "deployLab": true,
-    "phase": 2,
-    "collegeName": "coep",
-    "baseUrl": "bmsp-coep.vlabs.ac.in",
-    "introduction": "The human body is generating various signals and constantly communicates information about our health. This information can be measured through instruments/equipment/devices that measure ECG, heart rate, EMG, blood pressure, oxygen saturation levels, blood glucose, nerve conduction, brain activity, etc. Traditionally, such measurements are taken at specific points in time and noted on a patient’s chart. Based on this measurement, treatment decisions are made based on these isolated readings. Biomedical signal processing involves the analysis of these measurements to provide useful information upon which physicians/clinicians can make decisions. By using traditional bio-measurement tools, the signals can be computed by software to provide physicians/clinicians with real-time data and greater insights to aid in clinical assessments. By using contemporary tools we can analyze what our body is saying, we can potentially determine the state of a patient’s health through more noninvasive measures. The biomedical and signal processing lab includes the generation of various biosignal signals, design and realization of biosignal amplifiers, and design and realization of therapeutic devices.",
-    "experiments": [
+  "broadArea": {
+    "name": "Biotechnology and Biomedical Engineering",
+    "link": "https://www.vlab.co.in/broad-area-biotechnology-and-biomedical-engineering"
+  },
+  "lab": "Virtual Bio-Medical & Signal Processing Laboratory",
+  "lab_display_name": "Biomedical and Signal Processing Lab",
+  "deployLab": true,
+  "phase": 2,
+  "collegeName": "coep",
+  "baseUrl": "bmsp-coep.vlabs.ac.in",
+  "introduction": "The human body is generating various signals and constantly communicates information about our health. This information can be measured through instruments/equipment/devices that measure ECG, heart rate, EMG, blood pressure, oxygen saturation levels, blood glucose, nerve conduction, brain activity, etc. Traditionally, such measurements are taken at specific points in time and noted on a patient’s chart. Based on this measurement, treatment decisions are made based on these isolated readings. Biomedical signal processing involves the analysis of these measurements to provide useful information upon which physicians/clinicians can make decisions. By using traditional bio-measurement tools, the signals can be computed by software to provide physicians/clinicians with real-time data and greater insights to aid in clinical assessments. By using contemporary tools we can analyze what our body is saying, we can potentially determine the state of a patient’s health through more noninvasive measures. The biomedical and signal processing lab includes the generation of various biosignal signals, design and realization of biosignal amplifiers, and design and realization of therapeutic devices.",
+  "experiments": [
     {
       "name": "To simulate Electrocardiogram Waveform",
       "short-name": "electrocardiogram-waveform",
@@ -20,7 +20,7 @@
     },
     {
       "name": "To simulate Electroencephalogram Signal",
-      "short-name": electroencephalogram-signal"",
+      "short-name": "electroencephalogram-signal",
       "repo": "https://github.com/virtual-labs/exp-electroencephalogram-signal-coep",
       "tag": "v1.0.0",
       "deploy": true
@@ -66,15 +66,29 @@
       "repo": "https://github.com/virtual-labs/exp-pulse-missing-detector-coep",
       "tag": "v1.0.0",
       "deploy": true
-    } 
-                   ],
-    "targetAudience": {
-        "UG": ["Undergraduate students of Instrumentation and Control Engineering, Mechatronics Engineering, and Biotechnology and Biomedical Engineering branches."],
-        "PG": ["Post-graduate students of Process Instrumentation, Mechatronics, and Production Engineering."]
-    },
-    "objective": "- To design and realize biosignal generators such as ECG, EEG, and EMG</br></br>- To analyze and interpret normal and abnormal biosignals</br></br>- To design and realize pacemaker and defibrillator</br></br>- To design and realize the Biopotential amplifier and its use as a block of signal conditioning modules</br></br>- To study, design, and understand hemodialysis machines.",
-    "courseAlignment": {
-        "description": "The syllabi of this lab aligns to the following universities in India",
-        "universities": ["Pune University","Indian Institute of Technology Bombay","Indian Institute of Technology Delhi","BMS College of Engineering, Bangalore","Institute has an Instrumentation and control department","Institute has a Biotechnology and Biomedical Engineering"]
     }
+  ],
+  "targetAudience": {
+    "UG": [
+      "Undergraduate students of Instrumentation and Control Engineering, Mechatronics Engineering, and Biotechnology and Biomedical Engineering branches."
+    ],
+    "PG": [
+      "Post-graduate students of Process Instrumentation, Mechatronics, and Production Engineering."
+    ]
+  },
+  "objective": "- To design and realize biosignal generators such as ECG, EEG, and EMG</br></br>- To analyze and interpret normal and abnormal biosignals</br></br>- To design and realize pacemaker and defibrillator</br></br>- To design and realize the Biopotential amplifier and its use as a block of signal conditioning modules</br></br>- To study, design, and understand hemodialysis machines.",
+  "courseAlignment": {
+    "description": "The syllabi of this lab aligns to the following universities in India",
+    "universities": [
+      "Pune University",
+      "Indian Institute of Technology Bombay",
+      "Indian Institute of Technology Delhi",
+      "BMS College of Engineering, Bangalore",
+      "Institute has an Instrumentation and control department",
+      "Institute has a Biotechnology and Biomedical Engineering"
+    ]
+  },
+  "exp_name": "To simulate ECG Pulse missing detector",
+  "exp_short_name": "pulse-missing-detector",
+  "version": "v0.1.0"
 }
