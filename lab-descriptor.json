@@ -1,7 +1,8 @@
 {
   "broadArea": {
     "name": "Biotechnology and Biomedical Engineering",
-    "link": "https://www.vlab.co.in/broad-area-biotechnology-and-biomedical-engineering"
+    "link": "https://www.vlab.co.in/broad-area-biotechnology-and-biomedical-engineering",
+    "code": "BIO"
   },
   "lab": "Virtual Bio-Medical & Signal Processing Laboratory",
   "lab_display_name": "Biomedical and Signal Processing Lab",
@@ -87,8 +88,5 @@
       "Institute has an Instrumentation and control department",
       "Institute has a Biotechnology and Biomedical Engineering"
     ]
-  },
-  "exp_name": "To simulate ECG Pulse missing detector",
-  "exp_short_name": "pulse-missing-detector",
-  "version": "v0.1.0"
+  }
 }
